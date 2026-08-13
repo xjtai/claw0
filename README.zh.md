@@ -73,7 +73,7 @@ s01 --> s02 --> s03 --> s04 --> s05
 
 ```sh
 # 1. 克隆并进入目录
-git clone https://github.com/shareAI-lab/claw0.git && cd claw0
+git clone https://github.com/xjtai/claw0.git && cd claw0
 
 # 2. 安装依赖
 pip install -r requirements.txt
@@ -161,11 +161,6 @@ croniter>=2.0.0
 python-telegram-bot>=21.0
 httpx>=0.27.0
 ```
-
-## 相关项目
-
-- **[learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** -- 姊妹教学仓库, 用 12 个递进课程从零构建一个智能体**框架** (nano Claude Code)。claw0 聚焦于网关路由、多通道接入和主动行为, learn-claude-code 则深入智能体的内部设计: 结构化规划 (TodoManager + nag)、上下文压缩 (三层 compact)、基于文件的任务持久化与依赖图、团队协调 (JSONL 邮箱、关机/计划审批 FSM)、自治式自组织, 以及 git worktree 隔离的并行执行。如果你想理解一个生产级单元智能体的内部运作, 从那里开始。
-
 ## 许可证
 
 MIT
