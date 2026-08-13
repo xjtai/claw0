@@ -73,7 +73,7 @@ s01 --> s02 --> s03 --> s04 --> s05
 
 ```sh
 # 1. Clone and enter
-git clone https://github.com/shareAI-lab/claw0.git && cd claw0
+git clone https://github.com/xjtai/claw0.git && cd claw0
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -161,15 +161,6 @@ croniter>=2.0.0
 python-telegram-bot>=21.0
 httpx>=0.27.0
 ```
-
-## Related Projects
-
-- **[learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** -- A companion teaching repo that builds an agent **framework** (nano Claude Code) from scratch in 12 progressive sessions. Where claw0 focuses on gateway routing, channels, and proactive behavior, learn-claude-code dives deep into the agent's internal design: structured planning (TodoManager + nag), context compression (3-layer compact), file-based task persistence with dependency graphs, team coordination (JSONL mailboxes, shutdown/plan-approval FSM), autonomous self-organization, and git worktree isolation for parallel execution. If you want to understand how a production-grade unit agent works inside, start there.
-
-## About
-<img width="260" src="https://github.com/user-attachments/assets/fe8b852b-97da-4061-a467-9694906b5edf" /><br>
-
-Scan with Wechat to fellow us,  
 or fellow on X: [shareAI-Lab](https://x.com/baicai003)  
 
 ## License
