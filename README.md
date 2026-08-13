@@ -161,7 +161,6 @@ croniter>=2.0.0
 python-telegram-bot>=21.0
 httpx>=0.27.0
 ```
-or fellow on X: [shareAI-Lab](https://x.com/baicai003)  
 
 ## License
 
